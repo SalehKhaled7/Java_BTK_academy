@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //perfect number ex:6 = 1+2+3
-        int number = -5;
+        int number = 8;
         int sum = 0;
         // for (int number = 1; number < 100; number++) {
         //    int sum = 0;
@@ -23,6 +23,12 @@ public class Main {
         } else {
              System.out.println(number + " is not a perfect number");
         }
-    }
-//}
+        int dd=0;
+        for(int j=1;j<220;j++){
+            dd+=j;
+        }
+        System.out.println(dd);
+   // }
+}
+
 }
