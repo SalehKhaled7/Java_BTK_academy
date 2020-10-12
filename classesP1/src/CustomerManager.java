@@ -5,11 +5,11 @@ public class CustomerManager {
     }
     public void removeCustomer() {
         //customer adding code
-        System.out.println("customer is added successfully ...");
+        System.out.println("customer is removed successfully ...");
     }
 
     public void updateCustomer() {
         //customer adding code
-        System.out.println("customer is added successfully ...");
+        System.out.println("customer is updated successfully ...");
     }
 }
