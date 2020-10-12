@@ -3,7 +3,6 @@ public class CustomerManager {
         //customer adding code
         System.out.println("customer is added successfully ...");
     }
-
     public void removeCustomer() {
         //customer adding code
         System.out.println("customer is added successfully ...");
