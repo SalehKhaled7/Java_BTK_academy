@@ -1,5 +1,16 @@
 public class Products { // every Class should have only one task
 
+    //Constructor
+    public Products(int id,String name,String description,double price,int stockAmount){
+        this.id=id;
+        this.name=name;
+        this.description=description;
+        this.price=price;
+        this.stockAmount=stockAmount;
+
+    }
+    public Products(){} //overloading "original constructor"
+
     //object attributes / fields
     //main class cant reach this cause it's private same for all bellow
     private int id;
